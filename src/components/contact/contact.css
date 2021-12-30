@@ -1,0 +1,122 @@
+.c{
+    height: 100vh;
+}
+
+.c-bg{
+    border-left: 20px solid green;
+    height: 100%;
+}
+
+.c-wrapper{
+    padding: 100px 50px;
+    display: flex;
+}
+
+.c-left{
+    flex: 1;
+
+}
+
+.c-title{
+    font-size: 50px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.c-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-desc{
+    font-weight: 200;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    height: 40px;
+    margin-bottom: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+textarea{
+    height: 80px;
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+button{
+    border: none;
+    background-color: #59b256;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;   
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.success{
+    margin-top:10px;
+    color: green;
+}
+
+@media screen and (max-width: 700px) {
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .c-title{
+        font-size: 30px;
+    }
+
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .c-desc{
+        display: none;
+    }
+
+    form{
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input{
+        width: 35%;
+        margin: 10px;
+        margin-left: 0;
+    }
+
+    textarea{
+        width: 89%;
+    }
+}
+

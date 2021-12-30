@@ -1,0 +1,41 @@
+.productlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 50px 100px;
+    overflow: hidden;
+}
+
+.pl-texts{
+    width: 65%;
+}
+
+.productlist_title{
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.productlist_desc{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 300;
+}
+
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .productlist_desc{
+        display: none;
+    }
+
+    .productlist{
+        padding: 20px;
+    }
+}
